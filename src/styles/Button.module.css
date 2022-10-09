@@ -1,0 +1,50 @@
+.primary, .secondary, .secondary-reverse, .tertiary, .tertiary-large, .cta {
+  background-color: transparent;
+  cursor: pointer;
+  font-weight: bold;
+  font-family: 'Reem Kufi Ink', sans-serif;
+  width: 125px;
+  height: 2.5em;
+  border-radius: 10px;
+  font-size: 1rem;
+  margin: 0 5px;
+}
+
+.primary, .cta {
+  color: #050505;
+}
+
+.primary {
+  background-color: var(--main-color);
+  border: none;
+  box-shadow: 2px 2px 30px #092c42;
+}
+
+.secondary {
+  border: 2px solid var(--main-color);
+  color: var(--main-color);
+}
+
+.secondary-reverse {
+  border: 2px solid white;
+  color: white;
+  border-radius: 50px;
+}
+
+.tertiary, .tertiary-large {
+  border: none;
+  color: rgb(202, 202, 202);
+  font-size: 0.9rem;
+}
+
+.tertiary-large {
+  font-variant: small-caps;
+  font-size: 1.2rem;
+  margin: 0;
+}
+
+.cta {
+  background-color: var(--accent-color);
+  font-size: 1.25rem;
+  width: 150px;
+}

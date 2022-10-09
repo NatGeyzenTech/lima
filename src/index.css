@@ -1,5 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Reem+Kufi+Ink&display=swap');
 
+:root {
+  --main-color: #0da3ff;
+  --accent-color: #00ddd7;
+}
+
 body {
   margin: 0;
   font-family: 'Reem Kufi Ink', sans-serif;
@@ -7,6 +12,20 @@ body {
   -moz-osx-font-smoothing: grayscale;
   background-color: #050505;
   color: white;
+  font-size: 16px;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+li {
+  list-style: none;
 }
 
 code {
