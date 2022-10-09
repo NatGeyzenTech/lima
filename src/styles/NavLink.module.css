@@ -1,0 +1,21 @@
+.navItem {
+  padding: 0 2rem;
+  display: flex;
+  align-items: center;
+}
+
+.navItem > a {
+  font-size: 1.1rem;
+}
+
+.icon {
+  display: none;
+}
+
+@media (min-width: 1000px) {
+  .icon {
+    margin: 5px 0 0 5px;
+    height: 0.75em;
+    cursor: pointer;
+  }
+}
